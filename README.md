@@ -17,7 +17,7 @@ not spatially constrained, and can fold back on itself (i.e. both segments can e
 agent collects a small reward for each time step that the arm's end is "within the target vicinity".
 Empirical evidence suggests that this means the end is within the target sphere.  The goal is to achieve an
 average score of +30.0 or more over 100 consecutive episodes (there is no guidance on how long these episodes
-must be).  **Note:** The ML Agents site indicates the reward is 0.1 point per time step near the target.
+must be).  **Note:** The [ML Agents site](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) indicates the reward is 0.1 point per time step near the target.
 However, this documentation is inconsistent with the version of code being used here.
 My observation of the operating agent shows that the reward is actually 0.04 per time step within the sphere, so for an
 episode of 1000 time steps the maximum possible reward would be 40 points.
